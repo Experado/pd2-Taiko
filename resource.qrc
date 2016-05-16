@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/background">
+        <file>C:/Users/user/Desktop/使用/0.jpg</file>
+        <file>C:/Users/user/Desktop/使用/2946671.jpg</file>
+        <file>C:/Users/user/Desktop/使用/bg_p2.png</file>
+        <file>C:/Users/user/Desktop/使用/dancer_n3.png</file>
+        <file>C:/Users/user/Desktop/使用/mob.png</file>
+        <file>C:/Users/user/Desktop/使用/playerchar_p1.png</file>
+        <file>C:/Users/user/Desktop/使用/playerchar_p2.png</file>
+        <file>C:/Users/user/Desktop/使用/mtaikoflash_blue.png</file>
+        <file>C:/Users/user/Desktop/使用/hr_songtitle.png</file>
+        <file>C:/Users/user/Desktop/使用/sfieldbg_gogo.png</file>
+        <file>C:/Users/user/Desktop/使用/playerchQQar_p2.png</file>
+        <file>C:/Users/user/Desktop/使用/bgk.png</file>
+        <file>C:/Users/user/Desktop/使用/d1412761.jpg</file>
+        <file>C:/Users/user/Desktop/使用/t0150fda28939d51e69.jpg</file>
+        <file>C:/Users/user/Desktop/使用/mzl.lggazymr.320x480-75.jpg</file>
+        <file>C:/Users/user/Desktop/使用/1370845638-3309607683.jpg</file>
+        <file>C:/Users/user/Desktop/使用/gogosplash.png</file>
+        <file>C:/Users/user/Desktop/使用/mtaikoDD_p2.png</file>
+        <file>C:/Users/user/Desktop/使用/playercar_p1.png</file>
+        <file>C:/Users/user/Desktop/使用/notAAAAes.png</file>
+        <file>C:/Users/user/Desktop/使用/noteAAAAs.png</file>
+        <file>C:/Users/user/Desktop/使用/notes11.png</file>
+        <file>C:/Users/user/Desktop/使用/nSSotes.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
