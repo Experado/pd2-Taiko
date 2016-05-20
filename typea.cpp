@@ -2,7 +2,7 @@
 #include "ui_typea.h"
 #include <QtCore>
 #include <QCoreApplication>
-#include "result.h"
+#include "ending.h"
 #include <QTime>
 #include <QString>
 
@@ -63,13 +63,13 @@ void TypeA::go()
     }
     else
     {
-        Result *r = new Result;
+        ending *e = new ending;
         timer->stop();
         scene->clear();
-        r->setGeometry(this->x()+200,this->y()+150,400,300);
-        r->shot(grade);
-        connect(r,SIGNAL(accepted()),this,SLOT(restart()));
-        connect(r,SIGNAL(rejected()),this,SLOT(close()));
+        e->setGeometry(this->x()+200,this->y()+150,1024,768);
+        e->shot(grade);
+        connect(e,SIGNAL(accepted()),this,SLOT(restart()));
+        connect(e,SIGNAL(rejected()),this,SLOT(close()));
     }
 
 }

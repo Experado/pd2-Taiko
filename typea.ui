@@ -292,6 +292,7 @@
      </rect>
     </property>
    </widget>
+   <zorder>graphicsView</zorder>
    <zorder>label</zorder>
    <zorder>label_3</zorder>
    <zorder>label_7</zorder>
@@ -307,7 +308,6 @@
    <zorder>label_4</zorder>
    <zorder>label_2</zorder>
    <zorder>lcdNumber</zorder>
-   <zorder>graphicsView</zorder>
    <zorder>grade</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">

@@ -16,22 +16,22 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     typea.cpp \
     choose.cpp \
-    result.cpp \
     typeb.cpp \
-    item.cpp
+    item.cpp \
+    ending.cpp
 
 HEADERS  += mainwindow.h \
     typea.h \
     choose.h \
-    result.h \
     typeb.h \
-    item.h
+    item.h \
+    ending.h
 
 FORMS    += mainwindow.ui \
     typea.ui \
     choose.ui \
-    result.ui \
-    typeb.ui
+    typeb.ui \
+    ending.ui
 
 RESOURCES += \
     resource.qrc

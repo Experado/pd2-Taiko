@@ -2,7 +2,7 @@
 #include "ui_typeb.h"
 #include <QtCore>
 #include <QCoreApplication>
-#include "result.h"
+#include "ending.h"
 
 TypeB::TypeB(QWidget *parent) :
     QMainWindow(parent),
@@ -27,9 +27,10 @@ void TypeB::mytime()
     if(T<0)
     {
         time->stop();
-        Result *r =new Result;
+        ending *e =new ending;
         this->hide();
-        r->show();
+        e->show();
 
     }
 }
+

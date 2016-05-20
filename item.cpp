@@ -19,12 +19,12 @@ void Item::vanish()
     }
 }
 
-void Item::getID()
+int Item::getID()
 {
     return ID;
 }
 
-void Item::gettime()
+int Item::gettime()
 {
     return time;
 }
@@ -32,20 +32,20 @@ void Item::type()
 {
     switch(ID) {
             case 0:
-                setPixmap(QPixmap(":/item/images/1.png"));
-                setPos(1024,150);
+                setPixmap(QPixmap(":/../../Desktop/使用/notes11.png"));
+                setPos(1024,310);
                 break;
             case 1:
-                setPixmap(QPixmap(":/item/images/2.png"));
-                setPos(1024,150);
+                setPixmap(QPixmap(":/../../Desktop/使用/noteAAAAs.png"));
+                setPos(1024,310);
                 break;
             case 2:
-                setPixmap(QPixmap(":/item/images/3.png"));
-                setPos(1024,150);
+                setPixmap(QPixmap(":/../../Desktop/使用/notAAAAes.png"));
+                setPos(1024,310);
                 break;
             case 3:
-                setPixmap(QPixmap(":/item/images/4.png"));
-                setPos(1024,150);
+                setPixmap(QPixmap(":/../../Desktop/使用/nSSotes.png"));
+                setPos(1024,310);
                 break;
             default:
                 break;
